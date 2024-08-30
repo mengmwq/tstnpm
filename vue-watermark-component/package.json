@@ -1,20 +1,19 @@
 {
-  "name": "vue-watermark-component",
-  "version": "0.1.0",
-  "private": true,
+  "name": "mjkwatermark",
+  "version": "1.0.0",
+  "description": "测试发布一个水印包",
+  "main": "dist/vue-watermark.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test": "vue-cli-service test:unit"
   },
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/mwq0602/testnpm.git"
   },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.13",
-    "@vue/cli-service": "~4.5.13",
-    "less": "^3.0.4",
-    "less-loader": "^5.0.0",
-    "vue-template-compiler": "^2.6.11"
-  }
+  "keywords": ["vue", "watermark", "component"],
+  "author": "mjk",
+  "license": "MIT"
 }
